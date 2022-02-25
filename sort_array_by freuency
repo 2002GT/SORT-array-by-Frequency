@@ -44,6 +44,7 @@ void Sortele(int arr[], int n)
       arr2d[0][k] = arr[i];
     }
   }
+  
   arr2d[1][k] = count;
   k++;
  
