@@ -17,6 +17,7 @@ void sort2darray(int array2d[2][100], int k)
   }
 }
 // Function to sort elements of array by frequency
+
 void Sortele(int arr[], int n)
 {
   // Step 1: Sort the array
@@ -27,7 +28,9 @@ void Sortele(int arr[], int n)
   
   int k = 0;
   int count = 0;
+  
   for (int i = 0; i < n; i++)
+  
   {
     if (i == 0)
     {
